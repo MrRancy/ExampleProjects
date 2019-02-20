@@ -1,83 +1,90 @@
 <html>
-    <head>
-    <title>Registration</title>
-    <style>
+
+<head>
+  <title>Registration</title>
+  <style>
     body {
-      background-color:lightblue;
+      background-color: lightblue;
     }
-    
+
     div {
-      padding-top: 30px;
-      padding-right: 600px;
-      padding-bottom: 30px;
-      padding-left: 600px;
+      padding-top: 19px;
+      padding-right: 500px;
+      padding-bottom: 18px;
+      padding-left: 560px;
+    }
+
+    label {
+      display: inline-block;
+      width: 46%;
+      text-align: left;
+      vertical-align: top;
     }
     
-    label{
-        display: inline-block;
-        width: 50%; 
-        text-align: left;
-    }
-    
-    </style>
-    </head>
-    <body style='font-family:Arial, Helvetica' background = "backround.jpg">
-            <form action="confirmation.html">
-                    <div class="container">
-    
-                      <hr>
-                      <label for="title"><b>Title</b></label>
-                      <select>
+  </style>
+</head>
+
+<body style='font-family:Arial, Helvetica' background="backround.jpg">
+  <form action="success.html">
+    <div class="container">
+      <hr><p  align="center">
+      <label for="heading"><b>REGISTRATION FORM</b></label>
+      </p><hr>
+      <label for="title"><b>Title</b></label>
+      <select>
                             <option value="mr">Mr.</option>
                             <option value="mrs">Mrs.</option>
                         </select>
-                        <br><br>
-                      <label for="first-name"><b>First Name</b></label>
-                      <input type="text" placeholder="Enter First Name" name="first-name" required>
-                      <br><br>
-                      <label for="last-name"><b>Last Name</b></label>
-                      <input type="text" placeholder="Enter last Name" name="last-name" required>
-                      <br><br>
-                      <label for="address"><b>Address</b></label>
-                      <input type="text" placeholder="Enter address" name="address" required>
-                      <br><br>
-                      <label for="city"><b>City</b></label>
-                      <input type="text" placeholder="Enter First Name" name="city" required>
-                      <br><br>
-                         <label for="state"><b>State</b></label>
-                      <input type="text" placeholder="Enter State" name="state" required>
-                      <br><br>
-                      <label for="postal-code"><b>Postal Code</b></label>
-                      <input type="text" placeholder="Enter Postal Code" name="postal-code" required>
-                      <br><br>
-                      <label for="country"><b>country</b></label>
-                      <input type="text" placeholder="Repeat Country" name="country" required>
-                      <br><br>
-                      <label for="phone"><b>Phone</b></label>
-                      <input type="number" placeholder="Enter Phone" name="phone" required>
-                      <br><br>
-                      <label for="fax"><b>Fax</b></label>
-                      <input type="number" placeholder="Enter Fax" name="fax" required>
-                      <br><br>
-                      <label for="email"><b>Enter Email</b></label>
-                      <input type="text" placeholder="Enter Email" name="email" required>
-                      <br><br>
-                      <label for="payment-by"><b>Payment by</b></label>
-                      <input type="radio" name="payment" value="paypal" checked> PayPal<br>
-                      <input type="radio" name="payment" value="payonarrival">Manual: Pay on Arrival<br>
-                      <input type="radio" name="payment" value="creditcard">Credit Card<br><br>
-    
-                      <label for="request"><b>Any Additional Request</b></label>
-                      <textarea rows="4" cols="20" align = "right"></textarea>
-                      <br>
-                      <br>
-    
-                      <input type="checkbox" name="termsandcondition" value="terms"> I agree with the <a href="https://policies.google.com/terms?hl=en">Terms & Condition</a><br>
-                      <hr>
-                      <button type="submit" class="registerbtn" required>Confirm & Checkout</button>
-                      <br>
-                      <hr>
-                    </div>
-            </form>
-    </body>
-    </html>
+      <br><br>
+      <label for="first-name"><b>First Name</b></label>
+      <input type="text" placeholder="Enter First Name" name="first-name" required>
+      <br><br>
+      <label for="last-name"><b>Last Name</b></label>
+      <input type="text" placeholder="Enter last Name" name="last-name" required>
+      <br><br>
+      <label for="address"><b>Address</b></label>
+      <input type="text" placeholder="Enter address" name="address" required>
+      <br><br>
+      <label for="city"><b>City</b></label>
+      <input type="text" placeholder="Enter First Name" name="city" required>
+      <br><br>
+      <label for="state"><b>State</b></label>
+      <input type="text" placeholder="Enter State" name="state" required>
+      <br><br>
+      <label for="postal-code"><b>Postal Code</b></label>
+      <input type="text" placeholder="Enter Postal Code" name="postal-code" required>
+      <br><br>
+      <label for="country"><b>country</b></label>
+      <input type="text" placeholder="Repeat Country" name="country" required>
+      <br><br>
+      <label for="phone"><b>Phone</b></label>
+      <input type="number" placeholder="Enter Phone" name="phone" required>
+      <br><br>
+      <label for="fax"><b>Fax</b></label>
+      <input type="number" placeholder="Enter Fax" name="fax" required>
+      <br><br>
+      <label for="email"><b>Enter Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <br><br>
+      <label for="payment-by"><b>Payment by</b></label>
+      <input type="radio" name="payment" value="paypal" checked> PayPal<br>
+      <label for="payment-by"><b></b></label>
+      <input type="radio" name="payment" value="payonarrival">Manual: Pay on Arrival<br>
+      <label for="payment-by"><b></b></label>
+      <input type="radio" name="payment" value="creditcard">Credit Card
+
+      <label for="request"><b>Any Additional Request</b></label>
+      <textarea rows="4" cols="22" align="right"></textarea>
+      <br>
+      <br>
+      <label><b>Terms & Conditions</b></label>
+      <input type="checkbox" name="termsandcondition" value="terms"> I agree with the <a href="https://policies.google.com/terms?hl=en">Terms & Condition</a><br>
+      <hr><p  align="center">
+      <button type="submit" class="registerbtn" required>Confirm & Checkout</button>
+      <br>
+      </p><hr>
+    </div>
+  </form>
+</body>
+
+</html>
